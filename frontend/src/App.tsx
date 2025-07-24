@@ -1,9 +1,12 @@
-import ItemList from './components/ItemList';
+
+import Aside from './components/Aside';
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <ItemList />
+    <div className="flex min-h-screen">
+      <Aside />
+      <Main />
     </div>
   );
 }
